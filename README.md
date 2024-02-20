@@ -1,3 +1,8 @@
+# Basic Information about the fork
+This repo was forked from https://github.com/deCodeIt/book-my-show-notification on Dec, 2022 and then I worked on it locally to make it work with Windows. But, the code is committed back to the repo on Feb, 2024. So, the updates made after Dec, 2022 in the main code, might not be present in this new branch windows.
+
+Updating few things in readme as well.
+
 # BookMyShow notification
 A python script to notify as soon as tickets for a given show are available on BookMyShow
 
@@ -43,6 +48,9 @@ And you will be the first one to be notified as soon as the show is available
 
 To check for shows one can run similar commands:<br />
 `./BookMyShow.py --movie "Avengers: Endgame" --cinema "PVR Forum Mall Koramangala" --date "20190426" --regionCode "BANG" --format "IMAX 3D"`
+
+***I was not able top use bash, so I used python command like below instead***
+`python BookMyShow.py --movie "Avatar: The Way of Water" --cinema "Luxe Cinemas: Chennai" --date "20221222" --regionCode "CHEN" --format "IMAX 3D"`
 
 ---
 

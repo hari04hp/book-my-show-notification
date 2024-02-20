@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+import pdb
+# import brotli
+import traceback
 import requests
 import pdb
 import sys
@@ -43,24 +46,26 @@ class NotificationThread( Thread ):
             else:
                 # send to all devices
                 deviceList = [ None ]
-            configFilePath = expanduser( '~' ) + '/.ntfy.yml'
-            for device in deviceList:
-                with open( configFilePath, 'w+' ) as ntfyFile:
-                    # set up config to push to given device
-                    ntfyFile.write( 'backends: ["pushbullet"]\n' )
-                    ntfyFile.write( 'pushbullet: {"access_token": "' + token + '"' )
-                    if device is not None:
-                        ntfyFile.write( ', "device_iden": "' + device + '"' )
-                    ntfyFile.write( '}' )
-                cmd = 'ntfy -t "{0}" send "{1}"'.format( self.title, self.message)
+            # configFilePath = expanduser( '~' ) + '/.ntfy.yml'
+            # for device in deviceList:
+            #     with open( configFilePath, 'w+' ) as ntfyFile:
+            #         # set up config to push to given device
+            #         ntfyFile.write( 'backends: ["pushbullet"]\n' )
+            #         ntfyFile.write( 'pushbullet: {"access_token": "' + token + '"' )
+            #         if device is not None:
+            #             ntfyFile.write( ', "device_iden": "' + device + '"' )
+            #         ntfyFile.write( '}' )
+                # cmd = 'ntfy -t "{0}" send "{1}"'.format( self.title, self.message)
+                cmd = 'msg "{0}" send "{1}"'.format( self.title, self.message)
                 system( cmd )
-            if exists( configFilePath ):
-                # we don't need this config anymore
-                remove( configFilePath )
+            # if exists( configFilePath ):
+            #     # we don't need this config anymore
+            #     remove( configFilePath )
         while True:
             # Keep on sending desktop notifications till the program is closed
             start = time()
-            cmd = 'ntfy -t "{0}" send "{1}"'.format( self.title, self.message)
+            # cmd = 'ntfy -t "{0}" send "{1}"'.format( self.title, self.message)
+            cmd = 'msg "{0}" send "{1}"'.format( self.title, self.message)
             system( cmd )
             stop = time()
             timeRemaining = self.interval - ( stop - start )
@@ -103,12 +108,15 @@ class BookMyShow( object ):
             totalDuration += duration
 
     def soundAlarm( self ):
+        # import pdb
+        # pdb.set_trace()
         if self.alarm is not None:
             self.alarm = self.alarm.strip()
             if self.alarm.find( "~" ) == 0:
                 # need to pass absolute path for home directory
-                self.alarm = expanduser( '~' ) + self.alarm[ 1: ]
+                self.alarm = "C:\\Users\\HaripriyaR\\Music\\MV27TES-alarm.mp3"
             while True:
+                self.alarm = "C:\\Users\\HaripriyaR\\Music\\MV27TES-alarm.mp3"
                 playsound( self.alarm )
         else:
             self.ringBell()
@@ -118,9 +126,17 @@ class BookMyShow( object ):
         returns region codes required to form url
         '''
         curDate = datetime.now().strftime("%Y%m%d%H")
-        regionData = self.ss.get( "https://in.bookmyshow.com/serv/getData/?cmd=GETREGIONS&t=" + curDate )
+        regionData = self.ss.get( "https://in.bookmyshow.com/serv/getData/?cmd=GETREGIONS&t=" + curDate,  headers={
+            'User-Agent' :'PostmanRuntime/7.29.2',
+            'Accept': '*/*',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Host' : 'in.bookmyshow.com'
+        })
+        print(regionData.status_code)
         assert regionData.status_code == 200
         regionData = regionData.text
+        # brotli.decompress(regionData.text)
         # extract data in json format from above javascript variables
         regionData = loads( regionData[ ( regionData.find( "=" ) + 1 ) : regionData.find( ";" ) ] )
         # TODO: one does not need to remember the city code, the city name should be good enough
@@ -130,6 +146,7 @@ class BookMyShow( object ):
     def getSearchUrl( self, searchTerm ):
         curTime = int( round( time() * 1000 ) )
         url = "https://in.bookmyshow.com/quickbook-search.bms?d[mrs]=&d[mrb]=&cat=&_=" + str( curTime ) + "&q=" + searchTerm.replace( " ", "+" ) + "&sz=8&st=ON&em=&lt=&lg=&r=" + self.regionData.get( "code" ) + "&sr="
+        # print(url)
         return url
 
     def getMovieUrl( self, movieData ):
@@ -141,6 +158,7 @@ class BookMyShow( object ):
 
         curDate = datetime.now().strftime("%Y%m%d") if self.date is None else self.date
         movieName = reSub('[^0-9a-zA-Z ]+', '', movieData.get('TITLE') ).lower().replace( " ", "-" )
+        print(movieName)
 
         movieUrl = "https://in.bookmyshow.com/buytickets/"
         movieUrl += movieName
@@ -148,6 +166,8 @@ class BookMyShow( object ):
         movieUrl += movieData.get( 'ID' )
         movieUrl += "-MT/"
         movieUrl += curDate
+        print(movieUrl)
+        # https://in.bookmyshow.com/buytickets/avatar-the-way-of-water-chennai/movie-chen-ET00342442-MT/20221221
         return movieUrl
 
     def getCinemaUrl( self, cinemaData ):
@@ -172,10 +192,11 @@ class BookMyShow( object ):
         '''
         returns all matched results after searching on bms
         '''
-
+        # pdb.set_trace()
         url = self.getSearchUrl( searchTerm )
         headers = {
                 'x-requested-from' : 'WEB',
+                'User-Agent' :'PostmanRuntime/7.29.2','Accept': '*/*','Accept-Encoding': 'gzip, deflate, br','Connection': 'keep-alive','Host' : 'in.bookmyshow.com'
         }
         data = self.ss.get( url, headers=headers )
         assert data.status_code == 200
@@ -185,6 +206,7 @@ class BookMyShow( object ):
     def search( self, searchTerm, typeName="Movies" ):
         jsonResp = self.getUrlDataJSON( searchTerm )
         # return the first hit belonging to typeName
+        # pdb.set_trace()
         data = {}
         for movieInfo in jsonResp[ 'hits' ]:
             if movieInfo.get( 'TYPE_NAME' ) == typeName:
@@ -201,7 +223,7 @@ class BookMyShow( object ):
         elif typeName == "Venues":
             url = self.getCinemaUrl( data )
         self.title = data.get( 'TITLE', '' )
-
+        # pdb.set_trace()
         return url
     
     def checkAvailability( self, movieLink ):
@@ -214,12 +236,14 @@ class BookMyShow( object ):
         '''
         Notifies if a show is available in your requested cinema
         '''
-        cinemaDetails = self.ss.get( cinemaLink )
+        cinemaDetails = self.ss.get( cinemaLink , headers={'User-Agent' :'PostmanRuntime/7.29.2','Accept': '*/*','Accept-Encoding': 'gzip, deflate, br','Connection': 'keep-alive','Host' : 'in.bookmyshow.com'})
         if not ( cinemaDetails.url == cinemaLink ):
             print( "Counters haven't opened for specified date yet, retrying..." )
             return False
         assert cinemaDetails.status_code == 200
-        cinemaSoup = BeautifulSoup( cinemaDetails.content, 'html5lib' )
+        # pdb.set_trace()
+        # cinemaSoup = BeautifulSoup( cinemaDetails.content, 'html5lib' )
+        cinemaSoup = BeautifulSoup( cinemaDetails.content, 'lxml' )
         # get movie name
         jsonRespOfMovies = self.getUrlDataJSON( movieName )
         # return the first hit belonging to movieName
@@ -231,9 +255,14 @@ class BookMyShow( object ):
         movieName = data.get( 'TITLE', movieName )
         
         scripts = cinemaSoup.find_all( "script" )
-        jsonMoviePattern = reCompile( "^\s*try\s+{\s+var\s+API\s+=\s+JSON.parse\(\"(.*)\"\);" )
+        # jsonMoviePattern = reCompile( "^\s*try\s+{\s+var\s+API\s+=\s+JSON.parse\(\"(.*)\"\);" )
+        # \n\t\t\t\tvar UAPI \t\t\t\t= JSON.parse("{\\"ShowDetails\\"
+        jsonMoviePattern = reCompile( "^\s*try\s+{[\s\S]*var\s+UAPI\s+=\s+JSON\.parse\(\"(.*)\"\);" )
         jsonMovieFormats = {}
-        for script in scripts:
+        # pdb.set_trace()
+        for i,script in enumerate(scripts):
+            # if i == 25:
+            #     pdb.set_trace()
             jsonMovieFormats = jsonMoviePattern.match( str( script.string ) )
             if jsonMovieFormats:
                 jsonMovieFormats = jsonMovieFormats.groups()[ 0 ]
@@ -242,11 +271,12 @@ class BookMyShow( object ):
                 # now convert to json
                 jsonMovieFormats = loads( jsonMovieFormats )
                 break
-
+        # pdb.set_trace()
         # now see if your format is available
         found = False
-        if jsonMovieFormats['BookMyShow']['Event']:
-            for event in jsonMovieFormats['BookMyShow']['Event']:
+        if jsonMovieFormats['ShowDetails']:
+            first_detail = jsonMovieFormats['ShowDetails'][0]
+            for event in first_detail['Event']:
                 if event.get( 'EventTitle' ) == movieName:
                     for eventFormat in event[ 'ChildEvents' ]:
                         if self.format is None:
@@ -257,16 +287,16 @@ class BookMyShow( object ):
                             # we found our format
                             found = True
                             break
-
+        # pdb.set_trace()
         # string to print format if available
         formatAvailable = ""
         if self.format is not None:
             formatAvailable = " in " + self.format
-
+        
         if found:
             # Movie tickets are now available
             print( "HURRAY! Movie tickets are now available" + formatAvailable )
-            self.notification( "Hurray!", "Tickets for " + movieName + " at " + self.title + " are now available" + formatAvailable )
+            # self.notification( "Hurray!", "Tickets for " + movieName + " at " + self.title + " are now available" + formatAvailable )
             self.soundAlarm()
             return True
         elif jsonMovieFormats['BookMyShow']['Event']:
@@ -290,6 +320,7 @@ class BookMyShow( object ):
         self.checkAvailability( movieLink )
 
     def checkCinema( self ):
+        pdb.set_trace()
         cinemaLink = self.search( self.cinema, typeName="Venues" )
         if cinemaLink is None:
             exit( 0 )
@@ -322,10 +353,13 @@ if __name__ == "__main__":
             # bms = BookMyShow( args )
             # status = bms.checkCinema()
             try:
+                # import pdb
+                # pdb.set_trace()
                 bms = BookMyShow( args )
                 status = bms.checkCinema()
                 break
-            except AssertionError:
+            except AssertionError as e:
+                pdb.set_trace()
                 print( "Seems like we lost the connection mid-way, will retry..." )
                 retry += 1
             except KeyboardInterrupt:
@@ -333,6 +367,7 @@ if __name__ == "__main__":
             except Exception as e:
                 print( "Something unexpected happened; Recommended to re-run this script with correct values" )
                 print( "Printing traceback:" )
+                traceback.print_exception(e)
                 print( e )
                 break
         if not status:

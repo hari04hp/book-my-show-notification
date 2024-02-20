@@ -1,0 +1,928 @@
+[<script type="text/javascript">
+	try {
+		(function(win, doc, ele ,dataLayer, host, port, topic){
+		win['__dataLayer'] = dataLayer || [];
+		win['__host'] = host;
+		win['__port'] = port;
+		win['__topic'] = topic;
+		win['bmsGaClient'] = win['bmsGaClient'] || [];
+		win['__mqtt_push_queue__'] = win['__mqtt_push_queue__'] || [];
+		win['bmsMQTTClient'] = win['bmsMQTTClient'] || {
+			init: function() { (window['__web_launch__'] = true) },
+			push: function(payload) { window['__mqtt_push_queue__'].push(payload) }
+		};
+		var f = doc.getElementsByTagName(ele)[0];
+		var j = doc.createElement(ele);
+		j.async='true';
+		j.defer='true';
+		j.src= '//assets-in.bmscdn.com/m6/scripts/libs/' + 'bms-analytics.js';
+		f.parentNode.insertBefore(j,f);
+	})(window, document, 'script', window.dataLayer, 'clickstream-in.bookmyshow.com', 8084, 'clickstream/web');
+	} catch (error) {
+		console.log(error);
+	}
+</script>, <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MH7KN6');</script>, <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+	h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+	(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+	})(window,document.documentElement,'async-hide','dataLayer',4000,
+	{'OPT-T3WQXGP':true});</script>, <script async="" src="https://www.googleoptimize.com/optimize.js?id=OPT-T3WQXGP"></script>, <script type="text/javascript">
+	var global  = {};
+
+	var blnIsRegionRouting = false;
+	var strSelRegionCode = "";
+    var strSelRegionName = "";
+    var strSelRegionUrlName = "";
+	global.fbKITAppId 			= "";
+	var strContentUrl = "//in.bmscdn.com";
+	global.strAppCode = "WEB";
+	global.Tier = "production";
+	global.dc = "aps";
+	global.fnbAdspotCode = '["prod_fnb_carousel1_desktop","prod_fnb_carousel2_desktop","prod_fnb_carousel3_desktop","prod_fnb_banner_desktop"]';
+	global.strCurrencyCodeEx = "INR";
+
+	global.blnIsTouchScreen = false;
+	global.blnIsIE = false;
+	global.arrBreakRgn	= ["NCR"];
+	global.deviceDetailsNotif	= {"browser":"Unknown","browserVersion":"Unknown","deviceType":"Desktop","ip":"183.82.30.27"};
+
+	var objGoogleData = {};
+	var isCache = false;
+	var pageName = "buytickets";
+
+	/* Dummy function created so that nothing breaks */
+	function ga() { }
+</script>, <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>, <script type="text/javascript">
+	var socialJS = "//web-assets-in.bmscdn.com/js/social-4aecb2dca6.js";
+</script>, <script>
+	if (typeof(WOW) !== "undefined") {
+		new WOW().init();
+	}
+</script>, <script src="/serv/getData/?cmd=GETREGIONS&amp;t=2022122115" type="text/javascript"></script>, <script type="text/javascript">
+	global.svgManifest = [];
+</script>, <script type="text/javascript">
+	var isIE = /*@cc_on!@*/false || !!document.documentMode;
+	if(isIE){
+		var head = document.getElementsByTagName('head')[0];
+		var link = document.createElement('link');
+		link.href = '/css/ie-support.css';
+		link.type = 'text/css';
+		link.rel = 'stylesheet';
+
+		var script = document.createElement('script');
+		script.src = 'https://polyfill.io/v3/polyfill.min.js?features=default%2CPromise%2CObject.assign';
+		script.type = 'text/javscript';
+
+		head.appendChild(script);
+		head.appendChild(link);
+	}
+</script>, <script type="text/javascript">
+				function goBackNativeHandler() {
+					window && window.history.back();
+				}
+			</script>, <script defer="" src="https://assets-in.bmscdn.com/promotions/js/sdk.min.js" type="text/javascript"></script>, <script type="text/javascript">
+	window['BMSSDK'] = {};
+	window['BMSSDK'].cmd = [];	
+</script>, <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>, <script>
+		  var googletag = googletag || {};
+		  googletag.cmd = googletag.cmd || [];
+		</script>, <script type="application/ld+json">
+				{"@context":"http:\/\/schema.org","@type":"ItemList","itemListElement":[{"@type":"ListItem","name":"avatarthewayofwater","position":1,"url":"https:\/\/in.bookmyshow.com\/buytickets\/avatarthewayofwater\/movie-chen-ET00346198-MT\/20221222"},{"@type":"ListItem","name":"gattakusthi","position":2,"url":"https:\/\/in.bookmyshow.com\/buytickets\/gattakusthi\/movie-chen-ET00326206-MT\/20221222"},{"@type":"ListItem","name":"laththi","position":3,"url":"https:\/\/in.bookmyshow.com\/buytickets\/laththi\/movie-chen-ET00329275-MT\/20221222"},{"@type":"ListItem","name":"peyakaanom","position":4,"url":"https:\/\/in.bookmyshow.com\/buytickets\/peyakaanom\/movie-chen-ET00347814-MT\/20221222"},{"@type":"ListItem","name":"connect","position":5,"url":"https:\/\/in.bookmyshow.com\/buytickets\/connect\/movie-chen-ET00345156-MT\/20221222"},{"@type":"ListItem","name":"varalarumukkiyam","position":6,"url":"https:\/\/in.bookmyshow.com\/buytickets\/varalarumukkiyam\/movie-chen-ET00331114-MT\/20221222"},{"@type":"ListItem","name":"kaapa","position":7,"url":"https:\/\/in.bookmyshow.com\/buytickets\/kaapa\/movie-chen-ET00334824-MT\/20221222"},{"@type":"ListItem","name":"naaisekarreturns","position":8,"url":"https:\/\/in.bookmyshow.com\/buytickets\/naaisekarreturns\/movie-chen-ET00343904-MT\/20221222"},{"@type":"ListItem","name":"lovetoday","position":9,"url":"https:\/\/in.bookmyshow.com\/buytickets\/lovetoday\/movie-chen-ET00343241-MT\/20221222"}]}			</script>, <script type="application/ld+json">
+		[{"@context":"http:\/\/schema.org","@type":"Event","name":"Avatar: The Way of Water","url":"https:\/\/in.bookmyshow.com\/buytickets\/avatarthewayofwater\/movie-chen-ET00346198-MT\/20221222","startDate":"2022-12-22T09:10:00+0530","location":{"@type":"Place","name":"Luxe Cinemas: Chennai","address":"2nd Floor, Phoenix Market City, Velachery Main Road, Velachery, Chennai, Tamil Nadu 600042, India"}},{"@context":"http:\/\/schema.org","@type":"Event","name":"Gatta Kusthi","url":"https:\/\/in.bookmyshow.com\/buytickets\/gattakusthi\/movie-chen-ET00326206-MT\/20221222","startDate":"2022-12-22T12:00:00+0530","location":{"@type":"Place","name":"Luxe Cinemas: Chennai","address":"2nd Floor, Phoenix Market City, Velachery Main Road, Velachery, Chennai, Tamil Nadu 600042, India"}},{"@context":"http:\/\/schema.org","@type":"Event","name":"Laththi","url":"https:\/\/in.bookmyshow.com\/buytickets\/laththi\/movie-chen-ET00329275-MT\/20221222","startDate":"2022-12-22T12:10:00+0530","location":{"@type":"Place","name":"Luxe Cinemas: Chennai","address":"2nd Floor, Phoenix Market City, Velachery Main Road, Velachery, Chennai, Tamil Nadu 600042, India"}}]	</script>, <script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"name" : "BookMyShow",
+		"url": "https://in.bookmyshow.com/"
+	}
+</script>, <script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"url": "https://in.bookmyshow.com/",
+		"logo": "https://in.bmscdn.com/bmsin/new/BMS_logo_new.png",
+		"name" : "BookMyShow",
+		"sameAs" : [
+		   "https://www.facebook.com/BookMyShowIN",
+		   "http://www.twitter.com/BookMyShow/",
+		   "http://www.youtube.com/user/BookMyShow/",
+		   "http://pinterest.com/bookmyshow/",
+		   "https://plus.google.com/110517543803442814698/",
+		   "http://www.linkedin.com/company/bookmyshow/"
+		],
+		"contactPoint" : [{
+						    "@type" : "ContactPoint",
+						    "telephone" : "+9122 6144 5050",
+						    "contactType" : "customer service",
+						    "areaServed" : "IN",
+						    "availableLanguage" : ["English", "Hindi", "Marathi", "Tamil", "Telugu", "Kannada", "Gujarati", "Punjabi"]
+						}]
+	}
+</script>, <script id="progress-bar-template" type="text/template">
+	<div class="progress-element {{activeClass}}" style="flex:{{flexValue}};"></div>
+</script>, <script>
+								  googletag.cmd.push(function() {
+								    googletag.defineSlot('/118335522/BMS_ShowTimePage_SkyScraper', [[120, 600], [160, 600]], 'div-gpt-ad-1476078216990-0').addService(googletag.pubads());
+								    googletag.pubads().enableSingleRequest();
+								    googletag.pubads().collapseEmptyDivs(true);
+								    googletag.enableServices();
+								  });
+								</script>, <script>
+								googletag.cmd.push(function() { googletag.display('div-gpt-ad-1476078216990-0'); });
+								</script>, <script id="template-recommended-card" type="text/template">
+			<div class='recommended-card-wrapper'>
+				<a class='recommended-card-container'
+					href='/buytickets/{{urlPath}}'>
+					<div class='details-container'>
+						{{venueName}}
+					</div>
+				</a>
+			</div>
+		</script>, <script src="//web-assets-in.bmscdn.com/js/misc-61c032394b.js" type="text/javascript"></script>, <script type="text/javascript">
+			try {
+				var strTodayDatecode 	= '20221221';
+				var strTomorrowDatecode = '20221222';
+				var urlDate         	=   "20221222";
+				var dtToday         	=   "20221221";
+				var Ecode           	=   "";
+				var Cinema_id       	=   "JACM";
+				var E_Data          	=   [];
+				var strRegName      	=   "";
+				var isVenue         	=   true;
+				var venueName 			= 	"Luxe Cinemas: Chennai";
+				var venueCode 			= "JACM";
+				var nowDate         	=   "20221221";
+				var nowTime         	=   "1520";
+				var strContentUrl   	=   "//in.bmscdn.com";
+				var did             	=   "JACM";
+				var displayDate     	=   "";
+				var dateSelected    	=   "20221222";
+				var eventGroup			=   "";
+				var eventTitle      	=   "";
+				var region          	=   "chen";
+				var pageName    		=   "buytickets";
+				var eventGenre  		=   "";
+				var eventDetails 		= 	{};
+				eventDetails.dimension	= "";
+				eventDetails.language 	= "";
+
+				var datesLength     	=	0;
+				var byWhat 				= "VN";
+				var objevent_details = {
+					venuename : "",
+					venuegroup : "",
+					islogedin : "No",
+					page : "Cinema showtimes page on clicking showtime"
+				};
+				var bmsOfferHtml 		= "";
+				var showDates       	= {"BookMyShow":{"aiSD":[{"DispDate":"Today, 21 Dec","DateCode":"20221221","Day":"Wednesday","Month":"December","Date":"21","Year":"2022","isDisabled":false},{"DispDate":"Tomorrow, 22 Dec","DateCode":"20221222","Day":"Thursday","Month":"December","Date":"22","Year":"2022","isDisabled":false},{"DispDate":"Friday, 23 Dec","DateCode":"20221223","Day":"Friday","Month":"December","Date":"23","Year":"2022","isDisabled":true},{"DispDate":"Saturday, 24 Dec","DateCode":"20221224","Day":"Saturday","Month":"December","Date":"24","Year":"2022","isDisabled":true},{"DispDate":"Sunday, 25 Dec","DateCode":"20221225","Day":"Sunday","Month":"December","Date":"25","Year":"2022","isDisabled":true},{"DispDate":"Monday, 26 Dec","DateCode":"20221226","Day":"Monday","Month":"December","Date":"26","Year":"2022","isDisabled":true},{"DispDate":"Tuesday, 27 Dec","DateCode":"20221227","Day":"Tuesday","Month":"December","Date":"27","Year":"2022","isDisabled":true}]}};
+				var recommendations 	= JSON.parse(null);
+				var UAPI 				= JSON.parse("{\"ShowDetails\":[{\"Date\":\"20221222\",\"BMSOffers\":null,\"Event\":[{\"EventTitle\":\"Avatar: The Way of Water\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"N\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=70MtMduCaQ0\",\"EventName\":\"Avatar: The Way of Water (3D Tamil) - Tamil\",\"EventGenre\":{\"Action\":[],\"Adventure\":[],\"Fantasy\":[],\"GenreMeta\":[],\"Sci-Fi\":[]},\"ApplicableTimeFilters\":[\"tf1\",\"tf2\",\"tf3\",\"tf4\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00016971\",\"EventCode\":\"ET00346198\",\"EventImageCode\":\"avatar-the-way-of-water-et00346198-1670851974\",\"EventDimension\":\"3D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212220910\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\",\"ApplicableTimeFilters\":[\"tf1\"],\"MinPrice\":\"90.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212220855\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137243\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"09:10 AM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"220.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"90.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"220.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"0910\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221320\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"90.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221305\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137244\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"2\",\"ShowTime\":\"01:20 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"220.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"2\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"90.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"220.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1320\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221845\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\",\"ApplicableTimeFilters\":[\"tf3\"],\"MinPrice\":\"90.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221830\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137245\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"06:45 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"220.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"90.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"220.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1845\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212222300\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"90.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222245\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137246\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"11:00 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"220.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"90.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"220.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"2300\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"avatar-the-way-of-water-3d-tamil\",\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"]},{\"Event_strIsDefault\":\"N\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=70MtMduCaQ0\",\"EventName\":\"Avatar: The Way of Water (3D) - English\",\"EventGenre\":{\"Action\":[],\"Adventure\":[],\"Fantasy\":[],\"GenreMeta\":[],\"Sci-Fi\":[]},\"ApplicableTimeFilters\":[\"tf1\",\"tf2\",\"tf3\",\"tf4\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00016971\",\"EventCode\":\"ET00342441\",\"EventImageCode\":\"avatar-the-way-of-water-et00342441-1670851141\",\"EventDimension\":\"3D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212220935\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf1\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212220920\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137235\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"09:35 AM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"0935\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212220955\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf1\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212220940\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137239\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"09:55 AM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"0955\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221000\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"\",\"ApplicableTimeFilters\":[\"tf1\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212220945\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137258\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"10:00 AM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1000\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221345\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221330\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137236\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"01:45 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1345\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221410\",\"CategoryRange\":\"\",\"Attributes\":\"3D\/XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221355\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137240\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"0\",\"ShowTime\":\"02:10 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"0\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"0\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1410\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221410\",\"CategoryRange\":\"\",\"Attributes\":\"\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221355\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137259\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"0\",\"ShowTime\":\"02:10 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"0\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"0\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1410\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221800\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf3\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221745\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137237\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"06:00 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1800\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221820\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf3\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221805\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137241\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"06:20 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1820\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221820\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"\",\"ApplicableTimeFilters\":[\"tf3\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221805\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137260\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"06:20 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"2\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1820\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212222210\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222155\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137238\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"10:10 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"2210\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212222235\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222220\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137242\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"10:35 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"2235\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212222300\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"96.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222245\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137261\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"11:00 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0007\",\"AdditionalData\":\"\",\"CurPrice\":\"241.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D ELITE\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0008\",\"AdditionalData\":\"\",\"CurPrice\":\"96.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"3D BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"241.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"2300\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"English\",\"EventUrl\":\"avatar-the-way-of-water-3d\",\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"]},{\"Event_strIsDefault\":\"N\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=70MtMduCaQ0\",\"EventName\":\"Avatar: The Way of Water (IMAX 3D) - English\",\"EventGenre\":{\"Action\":[],\"Adventure\":[],\"Fantasy\":[],\"GenreMeta\":[],\"Sci-Fi\":[]},\"ApplicableTimeFilters\":[\"tf1\",\"tf2\",\"tf4\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00016971\",\"EventCode\":\"ET00342442\",\"EventImageCode\":\"avatar-the-way-of-water-et00342442-1670851172\",\"EventDimension\":\"IMAX 3D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221015\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/IMAX\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf1\"],\"MinPrice\":\"538.82\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221000\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137230\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"2\",\"ShowTime\":\"10:15 AM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0025\",\"AdditionalData\":\"\",\"CurPrice\":\"538.82\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000018\",\"AvailStatus\":\"2\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"IMAX_OTHERS_3D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"538.82\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf6\"],\"ShowTimeCode\":\"1015\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221435\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/IMAX\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"538.82\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221420\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137231\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"1\",\"ShowTime\":\"02:35 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0025\",\"AdditionalData\":\"\",\"CurPrice\":\"538.82\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000018\",\"AvailStatus\":\"1\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"IMAX_OTHERS_3D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"538.82\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf6\"],\"ShowTimeCode\":\"1435\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221910\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/IMAX\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"538.82\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221855\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137232\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"1\",\"ShowTime\":\"07:10 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0025\",\"AdditionalData\":\"\",\"CurPrice\":\"538.82\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000018\",\"AvailStatus\":\"1\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"IMAX_OTHERS_3D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"538.82\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf6\"],\"ShowTimeCode\":\"1910\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212222330\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"3D\/IMAX\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"538.82\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222315\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137233\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"1\",\"ShowTime\":\"11:30 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0025\",\"AdditionalData\":\"\",\"CurPrice\":\"538.82\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000018\",\"AvailStatus\":\"1\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"IMAX_OTHERS_3D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"538.82\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf6\"],\"ShowTimeCode\":\"2330\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"English\",\"EventUrl\":\"avatar-the-way-of-water-imax-3d\",\"ApplicablePriceFilters\":[\"pf6\"]},{\"Event_strIsDefault\":\"N\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=70MtMduCaQ0\",\"EventName\":\"Avatar: The Way of Water (Tamil) - Tamil\",\"EventGenre\":{\"Action\":[],\"Adventure\":[],\"Fantasy\":[],\"GenreMeta\":[],\"Sci-Fi\":[]},\"ApplicableTimeFilters\":[\"tf2\",\"tf3\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00016971\",\"EventCode\":\"ET00342437\",\"EventImageCode\":\"avatar-the-way-of-water-et00342437-1670851051\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221350\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221335\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137255\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"2\",\"ShowTime\":\"01:50 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"2\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1350\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221800\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf3\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221745\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137256\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"06:00 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1800\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"avatar-the-way-of-water-tamil\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"]},{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=70MtMduCaQ0\",\"EventName\":\"Avatar: The Way of Water - English\",\"EventGenre\":{\"Action\":[],\"Adventure\":[],\"Fantasy\":[],\"GenreMeta\":[],\"Sci-Fi\":[]},\"ApplicableTimeFilters\":[\"tf4\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00016971\",\"EventCode\":\"ET00037264\",\"EventImageCode\":\"avatar-the-way-of-water-et00037264-1670850986\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212222235\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\/English Subtitles\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"66.30\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222220\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137257\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"10:35 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"211.46\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"66.30\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"211.46\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"2235\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"English\",\"EventUrl\":\"avatar-the-way-of-water\",\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf3\",\"pf6\",\"pf2\"],\"ApplicableTimeFilters\":[\"tf1\",\"tf2\",\"tf3\",\"tf4\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00016971\"},{\"EventTitle\":\"Gatta Kusthi\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=_VUR27LHmjw\",\"EventName\":\"Gatta Kusthi - Tamil\",\"EventGenre\":{\"Drama\":[],\"GenreMeta\":[],\"Sports\":[]},\"ApplicableTimeFilters\":[\"tf2\"],\"EventCensor\":\"U\",\"EventGroup\":\"EG00325778\",\"EventCode\":\"ET00326206\",\"EventImageCode\":\"gatta-kusthi-et00326206-1668416304\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221200\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221145\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137251\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"12:00 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1200\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221555\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221540\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137267\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"03:55 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1555\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"gatta-kusthi\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ApplicableTimeFilters\":[\"tf2\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00325778\"},{\"EventTitle\":\"Laththi\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=jc1syANigiQ\",\"EventName\":\"Laththi - Tamil\",\"EventGenre\":{\"Action\":[],\"Drama\":[],\"GenreMeta\":[]},\"ApplicableTimeFilters\":[\"tf2\",\"tf3\",\"tf4\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00328795\",\"EventCode\":\"ET00329275\",\"EventImageCode\":\"laththi-et00329275-1671455553\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221210\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221155\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137262\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"12:10 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1210\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221530\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221515\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137263\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"03:30 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1530\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221855\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf3\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221840\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137264\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"06:55 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1855\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212222220\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222205\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137265\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"10:20 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"2220\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"laththi\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ApplicableTimeFilters\":[\"tf2\",\"tf3\",\"tf4\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00328795\"},{\"EventTitle\":\"Peya Kaanom\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=smDUT4pUUsQ\",\"EventName\":\"Peya Kaanom - Tamil\",\"EventGenre\":{\"GenreMeta\":[],\"Horror\":[],\"Thriller\":[]},\"ApplicableTimeFilters\":[\"tf2\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00347020\",\"EventCode\":\"ET00347814\",\"EventImageCode\":\"peya-kaanom-et00347814-1671610550\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221255\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221240\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137266\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"12:55 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1255\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"peya-kaanom\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ApplicableTimeFilters\":[\"tf2\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00347020\"},{\"EventTitle\":\"Connect\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=bytrVHiPTPU\",\"EventName\":\"Connect - Tamil\",\"EventGenre\":{\"GenreMeta\":[],\"Horror\":[],\"Thriller\":[]},\"ApplicableTimeFilters\":[\"tf2\",\"tf3\",\"tf4\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00344394\",\"EventCode\":\"ET00345156\",\"EventImageCode\":\"connect-et00345156-1670998643\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221345\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221330\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137247\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"1\",\"ShowTime\":\"01:45 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"2\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"1\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1345\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221620\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf3\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221605\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137248\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"2\",\"ShowTime\":\"04:20 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"2\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1620\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212221855\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf3\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221840\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137249\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"1\",\"ShowTime\":\"06:55 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"1\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"2\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1855\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212222215\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222200\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137250\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"2\",\"ShowTime\":\"10:15 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"2\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"2215\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"connect\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ApplicableTimeFilters\":[\"tf2\",\"tf3\",\"tf4\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00344394\"},{\"EventTitle\":\"Varalaru Mukkiyam\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=mR_v_e52TN0\",\"EventName\":\"Varalaru Mukkiyam - Tamil\",\"EventGenre\":{\"Comedy\":[],\"GenreMeta\":[],\"Romantic\":[]},\"ApplicableTimeFilters\":[\"tf2\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00330610\",\"EventCode\":\"ET00331114\",\"EventImageCode\":\"varalaru-mukkiyam-et00331114-1669620052\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221525\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\/English Subtitles\/4K\",\"ApplicableTimeFilters\":[\"tf2\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221510\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137252\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"03:25 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1525\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"varalaru-mukkiyam\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ApplicableTimeFilters\":[\"tf2\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00330610\"},{\"EventTitle\":\"Kaapa\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=hXw2FnehuD8\",\"EventName\":\"Kaapa - Malayalam\",\"EventGenre\":{\"Action\":[],\"Crime\":[],\"GenreMeta\":[],\"Thriller\":[]},\"ApplicableTimeFilters\":[\"tf4\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00334251\",\"EventCode\":\"ET00334824\",\"EventImageCode\":\"kaapa-et00334824-1671523825\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221900\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"63.72\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221845\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137253\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"07:00 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"202.84\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"63.72\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"202.84\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"1900\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"},{\"ShowDateTime\":\"202212222225\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"63.72\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222210\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137254\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"10:25 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"202.84\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"63.72\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"202.84\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ShowTimeCode\":\"2225\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Malayalam\",\"EventUrl\":\"kaapa\",\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf3\"],\"ApplicableTimeFilters\":[\"tf4\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00334251\"},{\"EventTitle\":\"Naai Sekar Returns\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=PM_dWlp0bRk\",\"EventName\":\"Naai Sekar Returns - Tamil\",\"EventGenre\":{\"Comedy\":[],\"GenreMeta\":[]},\"ApplicableTimeFilters\":[\"tf4\"],\"EventCensor\":\"U\",\"EventGroup\":\"EG00343164\",\"EventCode\":\"ET00343904\",\"EventImageCode\":\"naai-sekar-returns-et00343904-1670930032\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212221920\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\/4K\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212221905\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137268\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"07:20 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"1920\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"naai-sekar-returns\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ApplicableTimeFilters\":[\"tf4\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00343164\"},{\"EventTitle\":\"Love Today\",\"EventDuration\":\"\",\"ChildEvents\":[{\"Event_strIsDefault\":\"Y\",\"EventSyn\":\"\",\"EventRAT\":\"0\",\"EventSEQ\":\"50\",\"EventTrailer\":\"https:\/\/www.youtube.com\/watch?v=FaQe8JFGdaM\",\"EventName\":\"Love Today - Tamil\",\"EventGenre\":{\"Drama\":[],\"GenreMeta\":[],\"Romantic\":[]},\"ApplicableTimeFilters\":[\"tf4\"],\"EventCensor\":\"UA\",\"EventGroup\":\"EG00342518\",\"EventCode\":\"ET00343241\",\"EventImageCode\":\"love-today-et00343241-1667476540\",\"EventDimension\":\"2D\",\"ShowTimes\":[{\"ShowDateTime\":\"202212222255\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\",\"Attributes\":\"XPOD\/4K\",\"ApplicableTimeFilters\":[\"tf4\"],\"MinPrice\":\"60.12\",\"UpdatedMinPrice\":null,\"SessionCopQuota\":\"0\",\"SessionCodFlag\":\"N\",\"CutOffDateTime\":\"202212222240\",\"ChildSeats\":\"Y\",\"BestAvailableSeats\":0,\"CutOffFlag\":\"1\",\"SessionCodQuota\":\"0\",\"SessionId\":\"137269\",\"BestBuy\":\"\",\"SessionCopFlag\":\"N\",\"AvailStatus\":\"3\",\"ShowTime\":\"10:55 PM\",\"SessionPopUpDesc\":\"\",\"Categories\":[{\"PriceCode\":\"0002\",\"AdditionalData\":\"\",\"CurPrice\":\"190.78\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000014\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\"ELITE_2D\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"},{\"PriceCode\":\"0003\",\"AdditionalData\":\"\",\"CurPrice\":\"60.12\",\"UpdatedPrice\":null,\"AreaCatCode\":\"0000000017\",\"AvailStatus\":\"3\",\"BestAvailableSeats\":\"0\",\"SeatLayout\":\"Y\",\"PriceDesc\":\" BUDGET\",\"CategoryRange\":\"1|2|3|4|5|6|7|8|9|10\"}],\"ShowDateCode\":\"20221222\",\"SessionUnpaidFlag\":\"N\",\"CoupleSeats\":\"N\",\"SessionUnpaidQuota\":\"0\",\"IsAtmosEnabled\":\"N\",\"MaxPrice\":\"190.78\",\"UpdatedMaxPrice\":null,\"Offers\":null,\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ShowTimeCode\":\"2255\",\"SessionSubTitle\":\"\",\"SessionSubTitleAcronym\":\"\"}],\"IsMovieClubEnabled\":\"N\",\"EventIsAtmosEnabled\":\"N\",\"Event_strPopUpDesc\":\"\",\"EventLanguage\":\"Tamil\",\"EventUrl\":\"love-today\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"]}],\"EventSynopsis\":\"\",\"EventGenre\":\"\",\"ApplicablePriceFilters\":[\"pf1\",\"pf2\"],\"ApplicableTimeFilters\":[\"tf4\"],\"EventCensor\":\"\",\"EventGroup\":\"EG00342518\"}],\"Venues\":{\"CouponIsAllowed\":\"Y\",\"Message\":\"Tamil Nadu Government Mandates that Only those that are Vaccinated (Atleast one dose) can be Allowed Into Cinema Halls.\\u003cbr\\u003e1. As per the government guidelines, wearing a face mask is compulsory for entering the theatre premises and guests are advised to retain the mask until the exit. \\u003cbr\\u003e\\n2. Body temperature screening will be a mandatory protocol at the cinema. Guests with high temperature will not be permitted. \\u003cbr\\u003e\\n3. Guests are requested to maintain safe distance as per the government guidelines and adhere to the cautionary markings present in the premises. \\u003cbr\\u003e\\n4. Guests are requested to make use of the hand sanitizers placed in the theatre premises. \\u003cbr\\u003e\\n5. Rights of admission reserved. \\u003cbr\\u003e\\n6. Tickets once issued cannot be cancelled, exchanged or refunded. \\u003cbr\\u003e\\n7. Tickets issued are valid only for the displayed showtime and date. \\u003cbr\\u003e \\u003cfont color=``ff0000``\\u003e8. Guests below the age of 18 years will not be granted entry for `A` rated films.\\u003cbr\\u003e\\n9. Children over 3 years of age require a ticket for entry into the auditorium. \\u003cbr\\u003e \\n10. Outside food and beverages will not be permitted, inside the theatre premises.\\u003cbr\\u003e \\u003cfont color=``ff0000``\\u003e \\n11. Pre booked Food \\u0026 Beverages to be pick up\/collect from the food counter\\u003cbr\\u003e \\u003cfont color=``ff0000``\\u003e \\n12. As per government guidelines,we are not doing Seat delivery of food \\u0026 beverages inside the auditorium.\",\"ShowSeatNo\":\"Y\",\"VenueCode\":\"JACM\",\"TicketCancellation\":\"N\",\"VenueInfoMessage\":\"\",\"SocialDistancingCompliant\":\"N\",\"UnpaidReleaseCutOff\":\"1 hr \",\"VenueLegends\":\";CAR;FOD;\",\"UnpaidReleaseCutOffJson\":[],\"CinemaCodFlag\":\"N\",\"CinemaIsOnlineNoTransactionMsg\":\"\",\"IsFullLayout\":\"Y\",\"VenueAdd\":\"2nd Floor, Phoenix Market City, Velachery Main Road, Velachery, Chennai, Tamil Nadu 600042, India\",\"VenueApp\":\"VS\",\"MessageType\":\"AC\",\"VenueLat\":\"12.9914\",\"CodReleaseCutOff\":\"10 hrs \",\"IsFoodSales\":\"Y\",\"VenueName\":\"Luxe Cinemas: Chennai\",\"VenueCompName\":\"Jazz Cinemas\",\"VenueComp\":\"JACM\",\"ETicket\":\"Y\",\"CinemaUnpaidFlag\":\"N\",\"CinemaCopFlag\":\"N\",\"BestSeatsAvail\":\"Y\",\"VenueLong\":\"80.2168\",\"CopReleaseCutOff\":\"3 hrs \",\"MessageTitle\":\"Terms \\u0026 Conditions\",\"MTicket\":\"Y\",\"CoupleSeats\":\"N\",\"UnpaidMaxQuantity\":\"4\",\"IsFullSeatLayout\":\"Y\",\"IsNewCinema\":\"N\",\"IsMultiplex\":\"Y\",\"isVenueDown\":false,\"PopUpDescription\":\"\",\"faqContent\":{\"heading\":\"\",\"content\":null},\"SeatSelector\":null,\"eticket\":\"\",\"mticket\":\"\",\"seatLegends\":[{\"status\":\"2\",\"label\":\"Sold\",\"infoText\":\"\",\"selectionText\":\"\"},{\"status\":\"1\",\"label\":\"Available\",\"infoText\":\"\",\"selectionText\":\"\"},{\"status\":\"88\",\"label\":\"Selected\",\"infoText\":\"\",\"selectionText\":\"\"},{\"status\":\"4\",\"label\":\"Bestseller\",\"infoText\":\"Bestsellers are the most in demand seats for any cinema\",\"selectionText\":\"You've selected {tixqty} of the best selling seats in the house\"}]},\"TimeFilters\":[{\"StartTime\":\"00:00\",\"StartTimeText\":\"12:00 AM\",\"EndTime\":\"11:59\",\"EndTimeText\":\"11:59 AM\",\"Key\":\"tf1\",\"Title\":\"Morning\",\"PriceFilters\":[\"pf1\",\"pf3\",\"pf6\"],\"isDisabled\":false,\"isPermanentlyDisabled\":false},{\"StartTime\":\"12:00\",\"StartTimeText\":\"12:00 PM\",\"EndTime\":\"15:59\",\"EndTimeText\":\"3:59 PM\",\"Key\":\"tf2\",\"Title\":\"Afternoon\",\"PriceFilters\":[\"pf1\",\"pf2\",\"pf3\",\"pf6\"],\"isDisabled\":false,\"isPermanentlyDisabled\":false},{\"StartTime\":\"16:00\",\"StartTimeText\":\"4:00 PM\",\"EndTime\":\"18:59\",\"EndTimeText\":\"6:59 PM\",\"Key\":\"tf3\",\"Title\":\"Evening\",\"PriceFilters\":[\"pf1\",\"pf2\",\"pf3\"],\"isDisabled\":false,\"isPermanentlyDisabled\":false},{\"StartTime\":\"19:00\",\"StartTimeText\":\"7:00 PM\",\"EndTime\":\"23:59\",\"EndTimeText\":\"11:59 PM\",\"Key\":\"tf4\",\"Title\":\"Night\",\"PriceFilters\":[\"pf1\",\"pf2\",\"pf3\",\"pf6\"],\"isDisabled\":false,\"isPermanentlyDisabled\":false}],\"PriceFilters\":[{\"Min\":\"0\",\"Max\":\"100\",\"Key\":\"pf1\",\"TimeFilters\":[\"tf1\",\"tf2\",\"tf3\",\"tf4\"],\"isDisabled\":false},{\"Min\":\"101\",\"Max\":\"200\",\"Key\":\"pf2\",\"TimeFilters\":[\"tf2\",\"tf3\",\"tf4\"],\"isDisabled\":false},{\"Min\":\"201\",\"Max\":\"300\",\"Key\":\"pf3\",\"TimeFilters\":[\"tf1\",\"tf2\",\"tf3\",\"tf4\"],\"isDisabled\":false},{\"Min\":\"301\",\"Max\":\"600\",\"Key\":\"pf6\",\"TimeFilters\":[\"tf1\",\"tf2\",\"tf4\"],\"isDisabled\":false}]}],\"ShowDatesArray\":[{\"DispDate\":\"Today, 21 Dec\",\"DateCode\":\"20221221\",\"Day\":\"Wednesday\",\"Month\":\"December\",\"Date\":\"21\",\"Year\":\"2022\",\"isDisabled\":false},{\"DispDate\":\"Tomorrow, 22 Dec\",\"DateCode\":\"20221222\",\"Day\":\"Thursday\",\"Month\":\"December\",\"Date\":\"22\",\"Year\":\"2022\",\"isDisabled\":false},{\"DispDate\":\"Friday, 23 Dec\",\"DateCode\":\"20221223\",\"Day\":\"Friday\",\"Month\":\"December\",\"Date\":\"23\",\"Year\":\"2022\",\"isDisabled\":true},{\"DispDate\":\"Saturday, 24 Dec\",\"DateCode\":\"20221224\",\"Day\":\"Saturday\",\"Month\":\"December\",\"Date\":\"24\",\"Year\":\"2022\",\"isDisabled\":true},{\"DispDate\":\"Sunday, 25 Dec\",\"DateCode\":\"20221225\",\"Day\":\"Sunday\",\"Month\":\"December\",\"Date\":\"25\",\"Year\":\"2022\",\"isDisabled\":true},{\"DispDate\":\"Monday, 26 Dec\",\"DateCode\":\"20221226\",\"Day\":\"Monday\",\"Month\":\"December\",\"Date\":\"26\",\"Year\":\"2022\",\"isDisabled\":true},{\"DispDate\":\"Tuesday, 27 Dec\",\"DateCode\":\"20221227\",\"Day\":\"Tuesday\",\"Month\":\"December\",\"Date\":\"27\",\"Year\":\"2022\",\"isDisabled\":true}],\"AllShowDatesDisabled\":false,\"DownCinemasMessage\":\"Bookings for this cinema are not going through due to a connectivity issue with cinema. Please try again later or explore other cinemas.\",\"BottomMessageWidget\":{\"redirectionCTA\":{}},\"SeatLayoutMessageWidget\":{\"label\":\"\",\"imageURL\":\"\",\"isDismissable\":false},\"DownCinemasTitle\":\"Sorry!\"}");
+			} catch(e) {
+				console.log(e)
+			}
+		</script>, <script async="" type="text/javascript">
+			var getSeatScript = '//web-assets-in.bmscdn.com/js/seatlayout-32f2642ace.js';
+		</script>, <script id="temp-preferred-cinemas" type="text/template">
+	<span class="label">{{label}}: </span>
+	{{data}}
+</script>, <script id="temp-preferred-cinema-item" type="text/template">
+	<a href="{{url}}" data-position="{{dataPosition}}">{{name}}</a>
+</script>, <script id="temp-event" type="text/template">
+		<div class="evt-dim-container {{containerCssClass}}">
+			{{seenContent}}
+			<div class="__event-container">
+				<a class="__event {{cssClass}}" data-id="{{eventId}}" href="{{eventURL}}" data-ga-label="{{dataGALabel}}">{{text}}</a>
+				{{movieClubIcon}}
+				{{recommendedContent}}
+				{{ratingContent}}
+			</div>
+			{{dimensions}}
+			{{ratingHTML}}
+		</div>
+	</script>, <script id="temp-venue" type="text/template">
+		<div class="cinema-container {{containerCssClass}}">
+			<a class="__venue {{cssClass}}" data-id="{{venueCode}}" data-position="{{dataPostion}}" href="{{venueUrl}}">{{text}}</a>
+			{{unpaidContent}}
+		</div>
+	</script>, <script id="temp-unpaid" type="text/template">
+			<span class="__unpaid-icon">
+				<span class="icon">
+					<svg xml:space="preserve" 
+						 enable-background="new 0 0 100 100" 
+						 viewBox="0 0 100 100" y="0px" x="0px" 
+						 xmlns:xlink="http://www.w3.org/1999/xlink" 
+						 xmlns="http://www.w3.org/2000/svg" 
+						 version="1.1">
+					<use xlink:href="/icons/buytickets-icons.svg#icon-reserve-seats"/>
+					</svg>
+					<div class="tooltip">
+						<span class="__arrow"></span>
+						<span class="__content">Reserve seats and pay online 1 hour before the show</span>
+					</div>
+				</span>
+			</span>
+	</script>, <script id="temp-seen-evt-svg" type="text/template">
+		<span class="__seen-event">
+			<svg version="1.1" 
+				 xmlns="http://www.w3.org/2000/svg" 
+				 xmlns:xlink="http://www.w3.org/1999/xlink" 
+				 x="0px" 
+				 y="0px" 
+				 viewBox="0 0 100 100" 
+				 enable-background="new 0 0 100 100" 
+				 xml:space="preserve">
+				<use xlink:href="/icons/common-icons.svg#icon-tick-green"></use>
+			</svg>
+		</span>
+	</script>, <script id="temp-recommended-evt-svg" type="text/template">
+		<span class="__recommended-event">
+			<svg version="1.1" 
+				 xmlns="http://www.w3.org/2000/svg" 
+				 xmlns:xlink="http://www.w3.org/1999/xlink" 
+				 x="0px" 
+				 y="0px" 
+				 viewBox="0 0 100 100" 
+				 enable-background="new 0 0 100 100" 
+				 xml:space="preserve">
+				<use xlink:href="/icons/common-icons.svg#icon-recommend"></use>
+			</svg>
+		</span>
+	</script>, <script id="temp-movie-club-icon" type="text/template">
+		<div class="movie-club-wrapper">
+			<span class="movie-club-icon">
+				<svg version="1.1" 
+					 xmlns="http://www.w3.org/2000/svg" 
+					 xmlns:xlink="http://www.w3.org/1999/xlink" 
+					 x="0px" 
+					 y="0px" 
+					 viewBox="0 0 100 100" 
+					 enable-background="new 0 0 100 100" 
+					 xml:space="preserve">
+					<use xlink:href="/icons/movies-icons.svg#icon-movie-club"></use>
+				</svg>
+			</span>
+			<span class="tool-tip">Exclusive</span>
+		</div>
+	</script>, <script id="temp-rating-evt-svg" type="text/template">
+		<span class="__rating-container {{cssRating}}">
+			<svg version="1.1" 
+				 xmlns="http://www.w3.org/2000/svg" 
+				 xmlns:xlink="http://www.w3.org/1999/xlink" 
+				 x="0px" 
+				 y="0px" 
+				 viewBox="0 0 100 100" 
+				 enable-background="new 0 0 100 100" 
+				 xml:space="preserve">
+				<use xlink:href="/icons/common-icons.svg#icon-heart"></use>
+			</svg>
+			<span class = "__rating-value">{{rating}}%</span>
+			<span class = "__event-votes">{{votes}} Votes</span>
+		</span>
+	</script>, <script id="temp-view-more" type="text/template">
+		<a class="__view-more" href="#">View All</a>
+	</script>, <script id="temp-filter" type="text/template">
+		<div class="filter-item-container">
+			<span class="__filter {{cssClass}}" 
+				  data-filter-key="{{filterKey}}" 
+				  data-filter-value="{{filterValue}}" 
+				  data-active="{{active}}">{{text}}</span>
+			{{hiddenFilters}}
+		</div>
+	</script>, <script id="temp-hidden-filter" type="text/template">
+		<li href="#" class="__hidden struktur {{cssClass}}">
+			<input type="checkbox" 
+				   id="filter-{{filterValue}}" 
+				   data-filter-key="{{filterKey}}" 
+				   data-filter-value="{{filterValue}}" 
+				   data-active="{{active}}" 
+				   value="0">
+			<label for="filter-{{filterValue}}">
+				<span class="__tick">
+					<svg version="1.1" 
+						 xmlns="http://www.w3.org/2000/svg" 
+						 xmlns:xlink="http://www.w3.org/1999/xlink" 
+						 x="0px" 
+						 y="0px" 
+						 viewBox="0 0 100 100" 
+						 enable-background="new 0 0 100 100" 
+						 xml:space="preserve">
+						<use xlink:href="/icons/common-icons.svg#icon-tick"></use>
+					</svg>
+				</span>
+				{{text}}
+			</label>
+		</li>
+	</script>, <script id="temp-label" type="text/template">
+		<div class="__label {{cssClass}}">{{text}}</div>
+	</script>, <script id="temp-grid-col" type="text/template">
+		<div class="list-container">
+			<ul class="unstyled">{{listHtml}}</ul>
+			{{viewMore}}
+		</div>
+	</script>, <script id="temp-qb-listing-tabs" type="text/template">
+		<div class="btn-group">
+			<button class="btn _uno _active tab-toggle primary-tab">{{primaryButtonText}}</button>
+			<button class="btn _uno tab-toggle secondary-tab">{{secondaryButtonText}}</button>
+		</div>
+	</script>, <script id="temp-no-results" type="text/template">
+		<div class="__no-results">
+			 <div class="__data-not-found">
+				<div class="__icon">
+					<svg version="1.1" 
+						 xmlns="http://www.w3.org/2000/svg" 
+						 xmlns:xlink="http://www.w3.org/1999/xlink" 
+						 x="0px" 
+						 y="0px" 
+						 viewBox="0 0 100 100" 
+						 enable-background="new 0 0 100 100" 
+						 xml:space="preserve">
+						<use xlink:href="/icons/common-icons.svg#icon-no-result"></use>
+					</svg>
+				</div>
+				<div class="__text"><span class="__red-text">Oops!</span> No results found</div>
+			</div>
+		</div>
+	</script>, <script id="temp-no-results-with-filters" type="text/template">
+		<div class="__no-results">
+			// The Selected filter didnt match any search result. Try using other filters or select All to clear filters.
+		</div>
+	</script>, <script id="temp-ajax-error" type="text/template">
+</script>, <script id="temp-qb-loader" type="text/template">
+		<div class="qb-loader">
+			<span class="reel __roll1">
+				<span class="mini-circle"></span>
+				<span class="mini-circle __center"></span>
+				<span class="mini-circle __left"></span>
+				<span class="mini-circle __right"></span>
+				<span class="mini-circle __bottom"></span>
+			</span>
+		</div>
+	</script>, <script id="temp-quickbook-container" type="text/template">
+		<div id="{{quickbookType}}" class="quickbook-container {{containerClass}}">
+			<div class="tabs-filters">
+				<div class="qb-tabs none"></div>
+				<div class="filters none"></div>
+			</div>
+			<div class="grid none"></div>
+			<div class="venue-grid none"></div>
+		</div>
+	</script>, <script id="temp-filter-set" type="text/template">
+			<div class="filter-set {{cssClasses}}">{{filters}}</div>
+	</script>, <script id="temp-dimension" type="text/template">
+		<a data-id="{{eventId}}" class="__dimension" href="{{eventURL}}" data-ga-label="{{dataGALabel}}">{{text}}</a>
+	</script>, <script id="temp-event-rating" type="text/template">
+		<div class="ratings-container">
+			Rate the movie
+		</div>
+	</script>, <script id="temp-hidden-filter-set" type="text/template">
+		<div class="__filter-menu">
+			<ul>{{filters}}</ul>
+		</div>
+	</script>, <script async="" type="text/javascript">
+		var SeatData	  =  null;
+		var getSeatScript = '//web-assets-in.bmscdn.com/js/seatlayout-32f2642ace.js';
+	</script>, <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+</script>, <script>
+	//window.mt = {};
+	//mt.cdnURL = '//in.bmscdn.com';
+
+	// mt.API = {BookMyShow: {Events: {}}};
+	//mt.API = ;
+	//console.log(mt.API);
+	//mt.rating = ;
+	//test commit for touch
+</script>, <script type="text/javascript">
+  var clevertap = {event:[], profile:[], account:[], onUserLogin:[], notifications:[]};
+  // wizrocket.account.push({"id":"RK6-Z85-W44Z"});
+      clevertap.account.push({"id": "RK4-47R-98KZ"});
+  
+  (function () {
+     var wzrk = document.createElement('script');
+     wzrk.type = 'text/javascript';
+     wzrk.async = true;
+     wzrk.src = ('https:' == document.location.protocol ? 'https://d2r1yp2w7bby2u.cloudfront.net' : 'http://static.clevertap.com') + '/js/a.js';
+     var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(wzrk, s);
+  })();
+</script>, <script type="text/javascript">
+  if ( BMS.Storage.get({name:"ld", "key":"MEMBERID", storage: "C"}) != "" ) {
+    if (typeof(clevertap) !== "undefined") {
+      clevertap.profile.push({
+        "Site": {
+          "Identity" : BMS.Storage.get({name:"ld", "key":"MEMBERID", storage: "C"}),
+          "Email" : BMS.Storage.get({name:"ld", "key":"MEMBEREMAIL", storage: "C"}),
+          "Phone" : "+91" + $.trim(BMS.Storage.get({name:"ld", "key":"MOBILE", storage: "C"})),
+          "App Language" : $("#dLangWrap [data-val='" + (BMS.Storage.get({ name: "lang", storage: "C" }) || "eng") + "']").attr("data-name")
+        }
+      });
+    }
+  }
+</script>, <script async="" src="//web-assets-in.bmscdn.com/js/social-4aecb2dca6.js" type="text/javascript"></script>, <script type="text/javascript">
+  $("<link/>", {
+     rel: "stylesheet",
+     type: "text/css",
+     href: '//web-assets-in.bmscdn.com/css/fonts-2c3e90fc20.css'
+  }).appendTo("head");
+</script>, <script type="text/javascript">
+  jQuery(document).ready(function() {
+    if(pageName != 'buytickets') { //Ali added this to avoid freeze on render for IE
+      svg4everybody();
+    }
+
+    window.setTimeout(function() {
+
+      //Add condtion for checking if user has selected the region
+      if(BMS.Storage.isset({name:'Rgn'})) {
+        BMS.Misc.fnPushNotificationsFromClevertap();
+      }
+    }, 5000); //Execute after 5000 ms
+
+  });
+</script>, <script id="showDates-list" type="text/template">
+		    <li class="{{isActive}}">
+		        <a href="{{location}}" onclick="BMS.Misc.fnBusy(true);">
+		            <span>{{offer}}</span>
+		            <div>{{date}}
+		                <br><span>{{day}}</span>
+		            </div>
+		        </a>
+		    </li>
+		</script>, <script id="showDates-list-responsive" type="text/template">
+				<li class="{{isActive}}">
+					<a class="date-href" href="{{location}}">
+					<div class="date-day">
+							{{day}}
+						</div>
+						<div class="date-numeric">
+							{{date}}
+						</div>
+						<div class="date-month">
+							{{month}}
+						</div>
+					</a>
+				</li>
+		</script>, <script id="filter-search" type="text/template">
+		    <div class="__search">
+		        <span class="icon-search">
+				  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<use xlink:href="/icons/common-icons.svg#icon-search"></use>
+				  </svg>
+				</span>
+				<span class="icon-close">
+				  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<use xlink:href="/icons/common-icons.svg#icon-cancel"></use>
+				  </svg>
+				</span>
+		        <input type="text" id="fltrsearch" placeholder="Search for a {{searchBy}}">
+		    </div>
+		    <div class="dropdown __hide" style="display:none;">
+		        <input type="checkbox" id="hideUnavailableShows" value="Hide Unavailable Shows" />
+		        <label for="hideUnavailableShows">
+		            <span class="__tick">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+							<use xlink:href="/icons/common-icons.svg#icon-tick"></use>
+						</svg>
+					</span>
+					Hide unavailable shows
+				</label>
+		    </div>
+		</script>, <script id="filters-container" type="text/template">
+		    <div class="dropdown">
+		        <div class="__text  {{type}}_text">{{currentSelection}}</div>
+		        <i class="__icon icon-arrow-down">
+					<svg version="1.1" width="10" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+						<use xlink:href="/icons/common-icons.svg#icon-arrow-down-new"></use>
+					</svg>
+				</i>
+		        <ul class="__menu" id="{{filterName}}" data-type="{{type}}">
+		            {{options}}
+		        </ul>
+		    </div>
+		</script>, <script id="filter-list" type="text/template">
+		    <li class="{{className}}" data-value="{{val}}">
+		        <input type="checkbox" id="{{filterId}}" {{state}} data-type="{{type}}" class="{{className}}" value="{{val}}">
+		        <label for="{{filterLabel}}">
+		            <span class="__tick">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+							<use xlink:href="/icons/common-icons.svg#icon-tick"></use>
+						</svg>
+					</span>
+					{{filter}}
+				</label>
+		        <div class="mini-loader">
+		            <div class="mini"></div>
+		        </div>
+		    </li>
+		</script>, <script id="showTimesfilter-list" type="text/template">
+		    <li class="{{className}}" value="{{val}}">
+		        <input type="checkbox" id="{{filterId}}" {{state}} class="{{className}}" value="{{val}}" data-type="{{type}}">
+		        <label for="{{filterLabel}}">
+		            <span class="__tick">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+							<use xlink:href="/icons/common-icons.svg#icon-tick"></use>
+						</svg>
+					</span>
+					{{filter}}
+					<span class="timings">{{timings}}</span>
+				</label>
+		        <span class="icon-showtime">
+					<svg class="st-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+						<use xlink:href="/icons/buytickets-icons.svg#icon-{{image}}"></use>
+					</svg>
+				</span>
+		        <div class="mini-loader">
+		            <div class="mini"></div>
+		        </div>
+		    </li>
+		</script>, <script id="applied-filters" type="text/template">
+		    <span class="__add-pills {{filterClass}}" id="{{value}}" filterType="{{type}}" filterName="{{filterName}}" onclick="clearFilter(this)">{{displayname}}
+			<span class="__remove" >
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<use xlink:href="/icons/common-icons.svg#icon-close"></use>
+				</svg>
+			</span>
+		    </span>
+		</script>, <script id="applied-filters-clear" type="text/template">
+			<span class="__add-pills {{filterClass}}" id="{{value}}" filterType="{{type}}" filterName="{{filterName}}" onclick="clearFilter(this)">{{displayname}}
+			</span>
+		</script>, <script id="temp-venues" type="text/template">
+		    <li class="list {{isfavClass}}" data-test="Y" data-tw="N">
+		        <div class="listing-info">
+		            <div class="img-container">
+		                <div class="__img">
+		                    <img alt="" src={{VenueImage}}>
+		                </div>
+		            </div>
+		            <div class="details">
+		                <span class="heart-it {{isfav}}" id={{venueCode}} onclick="{{favClick}}">
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+								<use xlink:href="/icons/movies-icons.svg#icon-star"></use>
+							</svg>
+						</span>
+		                <span class="icon-location">
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+							  <use xlink:href="/icons/common-icons.svg#icon-location"></use>
+							</svg>
+						</span>
+		                <span class="__name {{allowSales}}">
+							<a class="nameSpan {{allowSales}}" onclick="BMS.Misc.fnBusy(true);" href="/buytickets/{{VenueURLName}}-chen-{{VenueURL}}-MT/20221222" >{{VenueName}}</a>
+							<span class="__reco {{isRecommended}}">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+									<use xlink:href="/icons/common-icons.svg#icon-recommend"></use>
+								</svg>
+							</span>
+							<span class="info-icon {{isVenueInfo}}">
+								<svg xml:space="preserve" enable-background="new 0 0 100 100" viewBox="0 0 100 100" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+									<use xlink:href="/icons/movies-icons.svg#icon-info"></use>
+								</svg>
+							</span>
+							<div class="st-distance">
+								<span class="__dis-icon">
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+            							<use xlink:href="/icons/common-icons.svg#icon-location"></use>
+        							</svg>
+    							</span>
+    							<span class="__distance"></span>
+							</div>
+			                <div class="__dolby-cinema {{isAtmosEnabled}}">
+			                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+			                        <use xlink:href="/icons/common-icons.svg#icon-dolby-atmos"></use>
+			                    </svg>
+			                </div>
+		                </span>
+		                <br>
+		                <address class="__address">
+		                </address>
+		                <div class="__facilities">
+		                    {{facilities}}
+		                </div>
+		            </div>
+		        </div>
+		        <div class="body {{device}}">
+		        </div>
+		    </li>
+		</script>, <script id="temp-venues-facility" type="text/template">
+			<span class="{{VenueFacilityIcons}}" title="{{title}}">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+					<use xlink:href="/icons/buytickets-icons.svg#{{VenueFacilityIcons}}"></use>
+				</svg>
+			</span>
+		</script>, <script id="temp-venues-times" type="text/template">
+		    <div data-online="{{Availability}}" class="{{ticketingStatus}}  {{availabilityClass}}"><a onclick="{{clickEvent}}" href="javascript:;">{{ShowDateTime}}</a>
+		        <div class="category-tooltip {{toolTipCalss}}">
+		            <div class="__body">
+		            	<span class="item-info {{isVenueInfoVisible}}">{{message}}</span>
+		                <div class="__dolby-icon  {{isDolbyActive}}">
+		                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+		                        <use xlink:href="/icons/common-icons.svg#icon-dolby-atmos"></use>
+		                    </svg>
+		                </div>
+		                {{tooltip}}
+		            </div>
+		        </div>
+		    </div>
+		</script>, <script id="temp-tooltip" type="text/template">
+		    <div class="{{className}}">&#8377; {{price}}
+		        <br><i>{{category}}</i>
+		        <br><span>{{TicketsAvailability}}</span>
+		    </div>
+		</script>, <script id="temp-events" type="text/template">
+		    <li class="list" data-eventcode={{EventURL}}>
+		        <div class="listing-info">
+		            <div class="img-container">
+		                <div class="__img">
+		                    <img alt="" src={{EventImage}}>
+		                </div>
+		                <span class="icon-star star" style="display:none"></span>
+		            </div>
+		            <div class="details">
+		                <span class="__name">
+							<a class="nameSpan" href="/buytickets/{{EventURLName}}-chen-{{EventURL}}-MT/20221222" onclick="BMS.Misc.fnBusy(true);" >{{EventName}}</a>
+						</span>
+		                <br>
+		            </div>
+		            <div class="eventInfo"><a href="/explore/movies?languages={{EventLanguageURL}}" >{{EventLanguage}}</a>, {{EventDimension}}</div>
+		        </div>
+		        <div class="body  {{device}}">
+		        </div>
+		    </li>
+		</script>, <script id="temp-events-times" type="text/template">
+		    <div data-online="{{Availability}}" class="{{ticketingStatus}}">
+				<a
+					class="{{session_time_center}}"
+					data-session-id="{{sessionId}}"
+					data-seats-percent="{{overallSeatsPercent}}"
+					onclick="{{clickEvent}}"
+					href="javascript:;"
+				>
+				<div class='{{details_class}}'>
+					<div class="{{text_class}}">
+							{{ShowDateTime}}
+					</div>
+				</div>
+				<div class={{attribute_class}}>{{screenAttributes}}</div>
+				</a>
+		    </div>
+		</script>, <script id="temp-events-times-with-subtitle" type="text/template">
+				<div data-online="{{Availability}}" class="{{ticketingStatus}}">
+				<a
+					class="{{session_time_center}}"
+					data-session-id="{{sessionId}}"
+					data-seats-percent="{{overallSeatsPercent}}"
+					onclick="{{clickEvent}}"
+					href="javascript:;"
+				>
+				<div class='{{details_class}}'>
+					<div class="{{text_class}}">
+							{{ShowDateTime}}
+					</div>
+					<div class='{{subtitle_class}} {{subtitle_status_class}}'>
+						{{SessionSubTitleAcronym}}
+					</div>
+				</div>
+				<div class={{attribute_class}}>{{screenAttributes}}</div>
+				</a>
+				</div>
+		</script>, <script id="temp-no-results" type="text/template"></script>, <script src="//web-assets-in.bmscdn.com/js/showvenue-9a95d3e035.js" type="text/javascript"></script>, <script src="//web-assets-in.bmscdn.com/js/venue-showcase-details-5aeff36667.js" type="text/javascript"></script>, <script>
+				$(window).load(function(){
+					window.dataLayer = window.dataLayer || [];
+					dataLayer.push({
+						'page type': 'buytickets cinema',
+						'session_daypart': 'Afternoon',
+						'pageurl': 'https://in.bookmyshow.com/buytickets/luxe-cinemas-chennai/cinema-chen-JACM-MT/20221222',
+						'user_mode': 'Guest Mode',
+						'app_code': 'WEB',
+						'domain': 'bms_web',
+						'venue_id' : "JACM",
+						'venue_name': "Luxe Cinemas: Chennai",
+						'audience': BMS.Storage.get({ name : 'cohorts', storage: 'C' }),
+					});
+				});
+			</script>, <script type="text/javascript">
+
+			var displayed_popup = null;
+			var deferred = {
+				seatlayoutjs: '',
+				seatlayouthtml: '',
+				getSynopsysData:'',
+			};
+
+			jQuery(document).ready(function($) {
+
+		 		//Search Hide and Show on Click
+		        $(".__search").on("click",function(e){
+
+					$(this).addClass("_active");
+					$("#fltrsearch").focus();
+					e.stopPropagation();
+				});
+			    $("#fltrsearch").blur(function(){
+					$(".__search").removeClass("_active");
+			    });
+				$(".icon-close").on("click",function(e){
+
+					$(this).parent().removeClass("_active");
+					$("#fltrsearch").val("");
+					$("#fltrsearch").blur();
+					$("#fltrsearch").trigger("keyup"); //reset search and render
+					e.stopPropagation();
+				});
+
+				$.ajaxSetup({ cache: true });
+			    deferred.seatlayoutjs =  $.getScript(getSeatScript, function(data, textStatus, jqxhr) {},true);
+			    deferred.seatlayouthtml = $.ajax({type: "GET",  url:    "/serv/getData.bms",data:   {cmd: "SEATHTML", eventGroup: (eventGroup ? eventGroup : "")}});
+
+
+		 	    $.when(deferred.seatlayoutjs, deferred.seatlayouthtml).then(function(jsSeat,htmlSeat) {
+					$("body").append(htmlSeat[0]);
+					$.ajaxSetup({ cache: false });
+				});
+
+		 		/**********************Added condition to check if we are getting here by venue or not. In Case of Venue wedonot need groupratings ************************************/
+
+		 		if (byWhat == "ET") {
+			 		deferred.getRatingsData = $.ajax({type: "GET",  url:    "/serv/getData.bms",data:   {cmd: "GETGROUPRATING",event_group:eventGroup}});
+
+					$.when(deferred.getRatingsData).then(function(ratingsData) {
+						var data=JSON.parse(ratingsData);
+						if (!_.isEmpty(data)) {
+							$(".heart-rating").show();
+							if (data.UserCount != 0 || data.CriticCount != 0) {
+								$(".__votes").html(data.UserCount+data.CriticCount+" VOTES");
+							} else {
+								$(".__votes").hide();
+							}
+							if (data.AverageRating!=0) {
+								$(".__percent").html(data.avgRatingStr);
+								$(".heart-icon").show();
+							} else {
+								$(".__percent").hide();
+								$(".heart-icon").hide();
+							}
+						} else {
+							$(".heart-rating").hide();
+						}
+					});
+				}
+
+			 	/***********************************************************************************************************************************************************************/
+
+				if(!global.blnIsTouchScreen) {
+					setTimeout(function() {
+						if($('.ad-spot-showtimes #div-gpt-ad-1476078216990-0 div>iframe, .ad-spot-showtimes #div-gpt-ad-1483529389188-0 div>iframe').length) {
+							if($('.ad-spot-showtimes #div-gpt-ad-1476078216990-0 div iframe, .ad-spot-showtimes #div-gpt-ad-1483529389188-0 div iframe').width() == "160") {
+								$('.showtimes .wrapper .container .ad-spot-showtimes, .showtimes .wrapper .container').addClass('__ab-test');
+							}
+						}
+					}, 2000);
+				}
+
+				/* Date changed coachmark begins */
+
+				if(dtToday != dateSelected && $('.tooltip-date-changed').length != 0) {
+					if(byWhat == 'VN' && BMS.Storage.get({name : "datechanged", key:"ecCode"}) != Cinema_id) {
+						setTimeout(function() {
+							$('.movie-details').after('\
+								<div class="tooltip-date-changed" style="display: none; position: absolute;top: auto;left: 0px;color: #fff;margin: 0;cursor: default;z-index: 3;"> \
+									<span class="__arrow" style="width: 0;height: 0;border-left: 7px solid hsla(0, 0%, 0%, 0);border-right: 7px solid hsla(0, 0%, 0%, 0);position: absolute;top: -7px;left: 14px;border-bottom: 10px solid hsl(222, 30%, 13%);"></span> \
+									<span class="__content" style="display: table; background: hsl(222, 30%, 13%);border-radius: 5px;padding: 8px;text-transform: none;font-size: 12px;">Your date has been changed</span> \
+								</div>');
+							$('.tooltip-date-changed')
+								.css('left', $('#showDates li._active').offset().left)
+								.css('top', $('#showDates li._active').offset().top + $('.filters-container').outerHeight() + 10);
+							$('.tooltip-date-changed').show();
+							if ($('.tooltip-date-changed').offset().left + $('.tooltip-date-changed').outerWidth() > $(window).width()) {
+								$('.tooltip-date-changed .__arrow').css('display', 'none');
+								$('.tooltip-date-changed').css('left', 'auto');
+								$('.tooltip-date-changed').css('right', '2px');
+							}
+						}, 600);
+					} else if(byWhat == 'ET' && BMS.Storage.get({name : "datechanged", key:"ecCode"}) != Ecode) {
+						$('.movie-details').after('\
+							<div class="tooltip-date-changed" style="display: none; position: absolute;top: auto;left: 0px;color: #fff;margin: 0;cursor: default;z-index: 3;"> \
+								<span class="__arrow" style="width: 0;height: 0;border-left: 7px solid hsla(0, 0%, 0%, 0);border-right: 7px solid hsla(0, 0%, 0%, 0);position: absolute;top: -7px;left: 14px;border-bottom: 10px solid hsl(222, 30%, 13%);"></span> \
+								<span class="__content" style="display: table; background: hsl(222, 30%, 13%);border-radius: 5px;padding: 8px;text-transform: none;font-size: 12px;">Your date has been changed</span> \
+							</div>');
+						$('.tooltip-date-changed')
+							.css('left', $('#showDates li._active').offset().left)
+							.css('top', $('#showDates li._active').offset().top + $('.filters-container').outerHeight() + 10);
+						$('.tooltip-date-changed').show();
+					}
+				}
+
+				if(byWhat == 'VN') {
+					BMS.Storage.set({ name: "datechanged", value: Cinema_id, key: "ecCode", storage: "S", sess: true });
+				} else {
+					BMS.Storage.set({ name: "datechanged", value: Ecode, key: "ecCode", storage: "S", sess: true });
+				}
+
+				/* Date changed coachmark ends */
+
+				/* Language check coachmark BEGINS */
+				if (byWhat == 'ET') {
+					if ($('#filterLanguage li').length > 1) {
+						$('.movie-details').after('\
+							<div class="coachmark-language-chk" style="display: none; position: absolute;top: auto;left: 0px;color: #fff;margin: 0;cursor: default;z-index: 3;"> \
+		                  		<span class="__arrow" style="width: 0;height: 0;border-left: 7px solid hsla(0, 0%, 0%, 0);border-right: 7px solid hsla(0, 0%, 0%, 0);position: absolute;top: -7px;left: 155px;border-bottom: 10px solid hsl(222, 30%, 13%);"></span> \
+		                 		<span class="__content" style="display: table; background: hsl(222, 30%, 13%);border-radius: 5px;padding: 8px;text-transform: none;font-size: 12px;">Check movie language and format before proceeding</span> \
+		  					</div>');
+						$('.coachmark-language-chk').css({
+							'left' : (($('#filterLanguage').offset().left + $('#filterLanguage').outerWidth() / 2) - ($('.coachmark-language-chk').outerWidth() / 2)),
+							'top' : $('.filters-wrapper').offset().top + $('.filters-wrapper').outerHeight() + 25
+						});
+						$('.coachmark-language-chk').show();
+					}
+				}
+				/* Language check coachmark ENDS */
+			});
+
+			/* onload calls for coachmark begin */
+			$(window).load(function(){
+				if(dtToday != dateSelected) {
+					fnCoachmarkAnimation('tooltip-date-changed');
+				}
+				fnCoachmarkAnimation('coachmark-language-chk');
+			});
+			/* onload calls for coachmark end */
+
+			/* Coachmark animation */
+			function fnCoachmarkAnimation(elemClass) {
+				var $coachmark = $('.' + elemClass);
+				if ($coachmark.length) {
+					$coachmark.animate({
+						marginTop: "+=15",
+					}, 500, function() {
+						$coachmark.animate({
+							marginTop:"-=20"
+						}, 250, function() {
+							$coachmark.animate({
+								marginTop:"+=5"
+							}, 250);
+						});
+					});
+
+					setTimeout(function() {
+						$coachmark.remove();
+					}, 3000);
+				}
+			}
+		</script>, <script type="text/javascript">
+			var venLongitude = "",
+				venLatitude = "",
+				params = {
+				url: "https://maps.googleapis.com/maps/api/geocode/json?latlng="+venLongitude+","+venLatitude+"&key=AIzaSyBh_KMx757Xvko2KP4PcoHA_ghoXJFUFXA",
+				success: function(response){
+					if(typeof response['results'] !== "undefined" && response['results'].length != 0) {
+						var addressComponents = response['results'][0]['address_components'],
+							dataObjCC = {},
+							state = '',
+							city = '',
+							area = '';
+
+						addressComponents.forEach(function(eachComp){
+							if ( eachComp["types"].indexOf('administrative_area_level_1') != -1 ) {
+								state = eachComp["long_name"];
+							}
+							if ( eachComp["types"].indexOf('locality') != -1 ) {
+								city = eachComp["long_name"];
+							}
+							if ( eachComp["types"].indexOf('sublocality_level_1') != -1 ) {
+								area = eachComp["long_name"];
+							}
+						});
+
+						if(state != ''){
+							dataObjCC["cinema state"] = state;
+						}
+
+						if(city != ''){
+							dataObjCC["cinema city"] = city;
+						}
+
+						if(area != ''){
+							dataObjCC["cinema area"] = area + ', ' + city;
+						}
+
+						dataObjCC["Booking Journey"] = "Step-1 (by venue)";
+
+						BMS.Misc.fnPushEventDataToAnalytics(["CC"], "", dataObjCC);
+					} else {
+						console.log('google maps response error -> ', response["error_message"]);
+					}
+				},
+				error: function (xhr, textStatus, error) {
+		            console.log('google maps ajax error -> ', error);
+		        },
+			};
+
+		</script>]
